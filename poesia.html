@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poesie in Scatole</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .box {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: calc(30% - 20px);
+            transition: transform 0.2s;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Poesia 1</h2>
+            <p>Questa è la prima poesia.<br>Parole danzano nel vento,<br>un canto di vita e di sogni.</p>
+        </div>
+        <div class="box">
+            <h2>Poesia 2</h2>
+            <p>Nel silenzio della notte,<br>le stelle raccontano storie,<br>di amori perduti e ritrovati.</p>
+        </div>
+        <div class="box">
+            <h2>Poesia 3</h2>
+            <p>Un mare di emozioni,<br>onde che si infrangono,<br>su una spiaggia di ricordi.</p>
+        </div>
+        <div class="box">
+            <h2>Poesia 4</h2>
+            <p>Il profumo dei fiori,<br>un abbraccio della primavera,<br>che risveglia il cuore.</p>
+        </div>
+        <div class="box">
+            <h2>Poesia 5</h2>
+            <p>Le foglie danzano nel vento,<br>una melodia di colori,<br>che celebra la vita.</p>
+        </div>
+    </div>
+</body>
+</html>
