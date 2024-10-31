@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottoni Stilizzati</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button-1 {
+            background-color: #3498db;
+        }
+
+        .button-1:hover {
+            background-color: #2980b9;
+        }
+
+        .button-2 {
+            background-color: #e74c3c;
+        }
+
+        .button-2:hover {
+            background-color: #c0392b;
+        }
+
+        .button-3 {
+            background-color: #2ecc71;
+        }
+
+        .button-3:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="button-1" onclick="showAlert1()">Messaggio 1</button>
+        <button class="button-2" onclick="showAlert2()">Messaggio 2</button>
+        <button class="button-3" onclick="showAlert3()">Messaggio 3</button>
+    </div>
+
+    <script>
+        function showAlert1() {
+            alert("Questo è il messaggio 1!");
+        }
+
+        function showAlert2() {
+            alert("Questo è il messaggio 2!");
+        }
+
+        function showAlert3() {
+            alert("Questo è il messaggio 3!");
+        }
+    </script>
+</body>
+</html>
